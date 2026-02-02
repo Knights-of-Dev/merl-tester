@@ -24,13 +24,13 @@ def sendtomerl():
 Intext = tk.Entry(root)
 Send = tk.Button(root, command = sendtomerl, text = "Send")
 Merlspeak = tk.Label(root, text = "Merl Speaks here!")
-Links = tk.Label(root, text = "https://github.com/O9Creeps/merl")
+Githubmerllink = tk.Label(root, text = "https://github.com/O9Creeps/merl")
 
 
 
 
 Intext.place(x = 0, y = 0)
 Send.place(x = 0, y = 25)
-Links.place(x = 0, y = 75)
+Githubmerllink.place(x = 0, y = 75)
 Merlspeak.place(x = 150, y = 0)
 root.mainloop()
